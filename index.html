@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="insopo css/insopo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="/Imagenes/ChatGPT_Image_28_dic_2025__02_00_15_p.m.-removebg-preview.png" alt="">
+        <h1>Equipo Insopo</h1>
+    </header>
+    <ul>
+        <li><button onclick="toggleHorarios()">Horarios</button></li>
+        <li><button><a href="#carta" style="text-decoration: none;">Carta</a></button></li>
+        <li><Button id="btnMensaje">¿Como hcer reparto?</Button></li>
+    </ul>
+    <br>
+    <p id="mensaje" style="display:none";>Para hacer un pedido debe elejir a su gusto, y en la parte de abajo colocar su direccion y mandar como wp.</p>
+    <br>
+    <div id="horarios" class="oculto" style="color: honeydew;">
+        <h3>Horarios de atencion al publico</h3>
+        <p>Sábados: <strong>11:00 a 23:00</strong></p>
+        <p>Domingos: <strong>10:00 a 22:00</strong></p>
+
+        <br>
+        <button id="estado" class="cerrado">
+         ⛔ Cerrado
+       </button>
+    </div>
+    <br>
+    <div class="carta" id="carta"> 
+        <div class="tarjeta">
+           <div class="card">
+              <h3>Chivito</h3>
+              <p>$250</p>
+              <button onclick="agregarAlCarrito('Chivito', 250)">Agregar</button>
+           </div>
+
+           <div class="card">
+             <h3>Fritas</h3>
+             <p>$300</p>
+              <button onclick="agregarAlCarrito('Fritas', 300)">Agregar</button>
+           </div>
+
+           <div class="card">
+              <h3>Pizzas</h3>
+              <p>$200</p>
+              <button onclick="agregarAlCarrito('Picetas', 200)">Agregar</button>
+           </div>
+
+           <div class="card">
+              <h3>Bauru</h3>
+              <p>$200</p>
+              <button onclick="agregarAlCarrito('Bauru', 200)">Agregar</button>
+           </div>
+
+           <div class="card">
+              <h3>Fritas con Chedar</h3>
+              <p>$200</p>
+              <button onclick="agregarAlCarrito('Fritas con Chedar', 200)">Agregar</button>
+           </div>
+
+           <div class="card">
+              <h3>Fritas Grandes</h3>
+              <p>$200</p>
+              <button onclick="agregarAlCarrito('Fritas Grandes', 200)">Agregar</button>
+           </div>
+
+           <div class="card">
+              <h3>Coca-Cola 2L</h3>
+              <p>$200</p>
+              <button onclick="agregarAlCarrito('Coca Cola 2L', 200)">Agregar</button>
+           </div>
+
+           <div class="card">
+              <h3>Sprite 2L</h3>
+              <p>$200</p>
+              <button onclick="agregarAlCarrito('Sprite 2L', 200)">Agregar</button>
+           </div>
+
+           <div class="card">
+              <h3>Tacuari 2L</h3>
+              <p>$200</p>
+              <button onclick="agregarAlCarrito('Tacuari 2l', 200)">Agregar</button>
+           </div>
+
+           <div class="card">
+              <h3>Coca Cola 3L</h3>
+              <p>$200</p>
+              <button onclick="agregarAlCarrito('Coca Cola 3L', 200)">Agregar</button>
+           </div>
+        </div>
+  </div>
+  <div class="compra">
+      <!--carrito-->
+      <h2>Reparto Insopo</h2>
+      <ul id="carrito"></ul>
+      <p id="total">Total: $0</p>
+      <button onclick="vaciarCarrito()" class="ichi">Vaciar Carrito</button>
+      <br> <br>
+      <label for="direccion">📍 Dirección de entrega</label><br>
+         <input type="text" id="direccion" placeholder="Ej; Av. Italia 1234, apto 2">
+         <BR></BR>
+         <button onclick="enviarWhatsApp()" class="ni">
+       📲 Enviar pedido por WhatsApp
+        </button>
+   </div>
+    <script src="insopo js/carrito.js"></script>
+    <script src="insopo js/horarios.js"></script>
+    <script>
+       const btn = document.getElementById("btnMensaje");
+       const mensaje = document.getElementById("mensaje");
+       btn.addEventListener("click", () => {
+       mensaje.style.display = "block";
+
+       setTimeout(() => {
+        mensaje.style.display = "none";
+       }, 3000);
+       });
+    </script>
+</body>
+</html>
