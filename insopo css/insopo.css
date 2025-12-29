@@ -6,7 +6,7 @@
 
 body {
   border: 4px solid black;
-  background-image: url(/Imagenes/3dcf0570-ba12-40cc-92ca-274887b39acd.jpeg);
+  background-image: url("../Imagenes/3dcf0570-ba12-40cc-92ca-274887b39acd.jpeg");
   background-position: center;
   background-size: cover;
   font-family: system-ui, sans-serif;
