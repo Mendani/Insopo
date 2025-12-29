@@ -110,62 +110,62 @@ ul li a{
 }
 
 .card:nth-child(1){
-  background-image: url(/Imagenes/images.jpg);
+  background-image: url("/Imagenes/images.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .card:nth-child(2){
-  background-image: url(/Imagenes/papas-fritas-saludables-1080x550-1-1200x900.jpg);
+  background-image: url("/Imagenes/papas-fritas-saludables-1080x550-1-1200x900.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .card:nth-child(3){
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI0-HmskFIOzX-o3_DTZdgLshMNluWvZpwAw&s);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI0-HmskFIOzX-o3_DTZdgLshMNluWvZpwAw&s");
   background-position: center;
   background-size: cover;
 } 
 
 .card:nth-child(4){
-  background-image: url(/Imagenes/maxresdefault.jpg);
+  background-image: url("/Imagenes/maxresdefault.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .card:nth-child(5){
-  background-image: url(https://png.pngtree.com/png-clipart/20250813/original/pngtree-gourmet-cheddar-sauce-fries-on-a-paper-plate-against-a-white-png-image_21633272.png);
+  background-image: url("https://png.pngtree.com/png-clipart/20250813/original/pngtree-gourmet-cheddar-sauce-fries-on-a-paper-plate-against-a-white-png-image_21633272.png");
   background-position: center;
   background-size: cover;
 }
 
 .card:nth-child(6){
-  background-image: url(https://sultanalpaso.cl/wp-content/uploads/2025/04/Papas-fritas-scaled.jpg);
+  background-image: url("https://sultanalpaso.cl/wp-content/uploads/2025/04/Papas-fritas-scaled.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .card:nth-child(7){
-  background-image: url(/Imagenes/FUN-001.jpg);
+  background-image: url("/Imagenes/FUN-001.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .card:nth-child(8){
-  background-image: url(/Imagenes/Captura\ de\ pantalla\ 2025-12-28\ 202008.png);
+  background-image: url("/Imagenes/Captura\ de\ pantalla\ 2025-12-28\ 202008.png");
   background-position: center;
   background-size: cover;
 }
 
 .card:nth-child(9){
-  background-image: url(/Imagenes/Captura\ de\ pantalla\ 2025-12-28\ 202746.png);
+  background-image: url("/Imagenes/Captura\ de\ pantalla\ 2025-12-28\ 202746.png");
   background-position: center;
   background-size: cover;
 }
 
 .card:nth-child(10){
-  background-image: url(/Imagenes/ChatGPT\ Image\ 28\ dic\ 2025\,\ 08_25_30\ p.m..png);
+  background-image: url("/Imagenes/ChatGPT\ Image\ 28\ dic\ 2025\,\ 08_25_30\ p.m..png");
   background-position: center;
   background-size: cover;
 }
