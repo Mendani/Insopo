@@ -48,7 +48,7 @@ function enviarWhatsApp() {
     mensaje += `%0A📍 Dirección: ${direccion}`;
     mensaje += `%0A💰 Total: $${total}`;
 
-    const telefono = "59894691720"; // tu número
+    const telefono = "598 92 854 880"; // tu número
     const url = `https://wa.me/${telefono}?text=${mensaje}`;
 
     window.open(url, "_blank");
